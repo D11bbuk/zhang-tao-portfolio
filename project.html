@@ -1,1 +1,31 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>张涛｜作品阅览</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="project.css"></head><body class="project"><canvas id="sand"></canvas><header class="site-head"><a class="wordmark" href="index.html" data-click>ZHANG TAO<small>PORTFOLIO</small></a><button class="sound" data-sound aria-pressed="false">SOUND <i></i></button><span class="page-count" id="counter"></span></header><main id="reader" class="reader"></main><nav class="reader-nav"><a href="index.html" data-click>← 首页</a><button id="previous" data-click>上一页</button><button id="next" data-click>下一页</button></nav><script src="script.js"></script><script src="project.js"></script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>张涛｜作品阅览</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="project.css">
+</head>
+<body class="project">
+  <canvas id="sand" aria-hidden="true"></canvas>
+  <header class="site-head">
+    <a class="wordmark" href="index.html#home" data-click>ZHANG TAO<small>PORTFOLIO</small></a>
+    <button class="sound" data-sound aria-pressed="false">SOUND <i></i></button>
+    <span class="page-count" id="counter"></span>
+  </header>
+  <aside class="project-index" aria-label="项目导航"><p>PROJECTS</p><div id="project-links"></div></aside>
+  <main id="reader" class="reader"></main>
+  <p class="gesture-note" aria-hidden="true">左右拖动切换章节</p>
+  <nav class="reader-nav" aria-label="阅览控制">
+    <a href="index.html#home" data-click>← 首页</a>
+    <button id="previous" data-click>上一页</button>
+    <button id="next" data-click>下一页</button>
+    <span></span>
+    <button id="chapter-previous" data-click>上一个章节</button>
+    <button id="chapter-next" data-click>下一个章节</button>
+  </nav>
+  <script src="script.js"></script>
+  <script src="project.js"></script>
+</body>
+</html>
